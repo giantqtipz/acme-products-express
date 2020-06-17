@@ -1,0 +1,31 @@
+html {
+    font-family: Arial;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-right: 1%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    border-top: 1px solid rgb(64, 62, 202);
+    border-bottom: 1px solid rgb(64, 62, 202);
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 1% 0;
+}
